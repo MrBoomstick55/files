@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Final Project</title>
+<meta charset="utf-8"> 
+<link href="projectcss.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+	<center><h1>Trading Program</h1></center>
+</header>
+<center>
+    <a href="change_password_hr.html"><button type="Register">Change Password</button>
+	<a href="view_record_hr.html"><button type="Register">HR View Record</button>
+	<a href="view_result_hr.html"><button type="Register">HR View Result</button>
+	<a href="index.html"><button type="Clear">Log Out</button></a>
+</center>	
+	
+<center><select id="Evaluation">
+  <option value="1">User 1</option>
+  <option value="2">User 2</option>
+  <option value="3">User 3</option>
+  <option value="4">User 4</option>
+</select><button onclick="myUser()">Select</button></center>
+
+
+<center><table class="Table">
+	<thead>
+		<tr>
+			<th>Year</th>
+			<th>Monthly Rate</th>
+			<th>Yearly Rate</th>
+		</tr>
+	</thead>
+<tbody>
+	<tr>
+		<td id="year">2019</td>
+		<td id="monthrate">64%</td>
+		<td id="yearrate">78%</td>
+	</tr>
+</table></center>
+</tbody>
+<script>
+
+function myUser() {
+	
+    var x = document.getElementById("Evaluation").value;
+    var month = document.getElementById("month").value;
+	var year = document.getElementById("year").value;
+	
+	
+	if (x == "User 1") {
+		month = "64%";
+		year = "78";
+	} else if () {
+
+	)
+	
+}
+
+</script>
+</body>
+<br><br><br><br>
+<footer><p>Copyright &copy; KPU 2019</p></footer>
+</html>

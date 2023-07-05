@@ -1,0 +1,78 @@
+body {  
+	background-color: #ffffff;
+	text-color: #666666; 	
+	font-family: Arial;
+
+}
+
+input[type=text], input[type=password], input[type=employeeid], input[type=emailaddress], input[type=securitycode] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px;
+  border: 10px;
+  cursor: pointer;
+  width: 9%;
+  float: center;
+}
+
+ul{
+text-align: center;
+}
+
+footer { 	font-size: .70em;
+	 	font-family: italic;
+	 	text-align: center;
+	 	padding: 10px;
+		background-color: #FFFFFF;
+		margin-left: 170px;
+		display: block;
+
+
+}
+
+table.Table {
+  border: 1px solid #4CAF50;
+  background-color: #EEEEEE;
+  width: 50%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.Table td, th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.Table tbody td {
+  font-size: 13px;
+}
+table.Table tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.Table thead { 
+  background: #4CAF50;
+
+}
+table.Table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.Table thead th {
+  border-left: none;
+}
+
+select {
+
+padding: 3px, 2px;
+
+}
