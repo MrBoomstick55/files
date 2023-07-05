@@ -1,0 +1,15 @@
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\bin\Debug\CryptoAlertSystem.exe.config
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\bin\Debug\CryptoAlertSystem.exe
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\bin\Debug\CryptoAlertSystem.pdb
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\bin\Debug\Newtonsoft.Json.dll
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\bin\Debug\Newtonsoft.Json.xml
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.CryptoCurrencyControl.resources
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.Dashboard.resources
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.CryptoAlertSystem.resources
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.HelpControl.resources
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.Properties.Resources.resources
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.csproj.GenerateResource.Cache
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.csproj.CoreCompileInputs.cache
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.exe
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.pdb
+C:\Users\as110\Source\Repos\CryptoAlertSystem\CryptoAlertSystem\obj\Debug\CryptoAlertSystem.csprojResolveAssemblyReference.cache

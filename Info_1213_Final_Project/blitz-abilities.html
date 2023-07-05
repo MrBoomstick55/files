@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blitzcrank - Abilities</title>
+<meta charset="utf-8">
+<style>
+body {
+	background-image: url("Summoners-Rift.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav { float: left;
+	  width: 90px;
+	  margin: 15px; }
+nav ul { list-style-type: none;
+		 margin-left: 0;
+		 padding: 5px;
+		 padding-bottom: 10px; }
+nav a { text-decoration: none;
+		padding: 20px;
+		font-weight: bold;
+		display: block;
+		text-align: center; }
+.button { border-radius: 60px;
+		  padding: 15px;
+		  background-color: #c4b44a; }
+nav ul, li { padding: 20px 3px 40px 3px }
+nav a:link { color: #ffffff; }
+nav a:visited { color: #be67ea; }
+nav a:hover { background-color: #ffffff;
+			  color: #c4b44a; }
+h1, h2, p { color: #ffffff;
+		 opacity: 0.8;'
+		 margin-left: 100px; }
+main { margin-left: 80px; }  
+.center { margin: 0 auto; width: 400px; }
+dt, dd, dl { color: #ffffff;
+			 opacity: 1; }
+h1, h2 { text-align: center; }
+dd, dt { margin-left: 300px;
+	     margin-right: 200px; 
+		 width: 50%; }
+footer { color: #ffffff; 
+		 opacity: 0.8; }
+
+</style>
+<nav>
+<ul>
+<li><a class="button" href="frontpage.html">Home</a></li> &nbsp;
+<li><a class="button" href="blitz-lore.html">Lore</a></li> &nbsp;
+<li><a class="button" href="blitz-abilities.html">Abilities</a></li> 
+</ul>
+</nav>
+
+<body>
+
+<center><img src="LoL-logo.png" align="middle"></center>
+<center><h1>Blitzcrank</h1></center>
+
+<main>
+<center>
+<div style="width:800px; margin: 0 auto;"><video controls id="change">
+  <source src="https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0053_01.mp4" type="video/mp4" ></source>
+</video></div>
+<br>
+<div style="width:400px; margin: 0 auto;">
+<input type="image" src="BImage/Blitz-Passive.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0053_01.mp4')"></image> &nbsp;
+<input type="image" src="BImage/Blitz-Ability1.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0053_02.mp4')"></image> &nbsp;
+<input type="image" src="BImage/Blitz-Ability2.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0053_03.mp4')"></image> &nbsp;
+<input type="image" src="BImage/Blitz-Ability3.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0053_04.mp4')"></image> &nbsp;
+<input type="image" src="BImage/Blitz-Ult.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0053_05.mp4')"></image> &nbsp;
+</div>
+</center>
+<h1>Abilities</h1>
+<p>
+<dl>
+	<h3><dt>Mana Barrier</dt></h3> &nbsp;
+		<dd> PASSIVE: When Blitzcrank's life is brought below 20% health, he activates Mana Barrier. This creates a mana shield equal to 50% of his mana for 10 seconds. Mana Barrier can only occur once every 90 seconds.</dd> &nbsp;
+	<h3><dt>Rocket Grab</dt></h3> &nbsp;
+		<dd> ACTIVE: Blitzcrank fires his right hand in the target direction, pulling the first enemy and stunning them for 0.5 seconds and dealing magic damage.</dd> &nbsp;
+	<h3><dt>Overdrive</dt></h3> &nbsp;
+		<dd> ACTIVE: Blitzcrank gains an attack speed bonus and a movement speed bonus that decays 10% over 5 seconds. When Overdrive ends, Blitzcrank is slowed by 30% for 1.5 seconds.</dd>&nbsp;
+	<h3><dt>Power Fist</dt></h3> &nbsp;
+		<dd> ACTIVE: Blitzcrank's next basic attack within 5 seconds deals 100% bonus attack damage and knocks up his target for 1 second. Power Fist also resets Blitzcrank's auto attack timer.</dd>&nbsp;
+	<h3><dt>Static Field</dt></h3> &nbsp;
+		<dd> PASSIVE: While Static Field is not on cooldown, Blitzcrank fires a ligtning bolt at a random visible enemy every 2.5 seconds, dealing magic damage.</dd>
+		<dd> ACTIVE Blitzcrank detonates his static field, dealing magic damage to nearby enemies and silencing them for 0.5 seconds.</dd>&nbsp;
+</dl>	
+</p>
+<script>
+function changevid(buttonlink) { 
+    document.getElementById('change').src = buttonlink;
+}
+</script>
+<hr>
+<footer><small>Copyright &copy; 2016 Riot Games</small></footer>
+</main>
+</body>
+</html>
