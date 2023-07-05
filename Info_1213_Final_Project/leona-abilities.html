@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Leona - Abilities</title>
+<meta charset="utf-8">
+<style>
+body {
+	background-image: url("Summoners-Rift.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav { float: left;
+	  width: 90px;
+	  margin: 15px; }
+nav ul { list-style-type: none;
+		 margin-left: 0;
+		 padding: 5px;
+		 padding-bottom: 10px; }
+nav a { text-decoration: none;
+		padding: 20px;
+		font-weight: bold;
+		display: block;
+		text-align: center; }
+.button { border-radius: 60px;
+		  padding: 15px;
+		  background-color: #F7DEE1; }
+nav ul, li { padding: 20px 3px 40px 3px }
+h1, h2, p { color: #ffffff;
+		 opacity: 0.8;'
+		 margin-left: 100px; }
+main { margin-left: 80px; }   
+.center { margin: 0 auto; width: 400px; }
+dt, dd, dl { color: #ffffff;
+			 opacity: 1; }
+h1, h2 { text-align: center; }
+dd, dt { margin-left: 200px;
+	     margin-right: 200px; 
+		 width: 50%; }
+
+</style>
+<nav>
+<ul>
+<li><a class="button" href="frontpage.html">Home</a></li> &nbsp;
+<li><a class="button" href="leona-lore.html">Lore</a></li> &nbsp;
+<li><a class="button" href="leona-abilities.html">Abilities</a></li> 
+</nav>
+
+<body>
+
+<center><img src="LoL-logo.png" align="middle"></center>
+<center><h1>Leona</h1></center>
+
+<main>
+
+<div style="width:800px; margin: 0 auto;"><video controls id="change">
+  <source src="https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0089_01.mp4" type="video/mp4" ></source>
+</video></div>
+
+<div style="width:400px; margin: 0 auto;">
+<input type="image" src="LImage/Leona-Passive.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0089_01.mp4')"></image> &nbsp;
+<input type="image" src="LImage/Leona-Ability1.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0089_02.mp4')"></image> &nbsp;
+<input type="image" src="LImage/Leona-Ability2.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0089_03.mp4')"></image> &nbsp;
+<input type="image" src="LImage/Leona-Ability3.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0089_04.mp4')"></image> &nbsp;
+<input type="image" src="LImage/Leona-Ult.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0089_05.mp4')"></image> &nbsp;
+</div>
+
+<h2>Abilities</h2>
+<p>
+<dl>
+
+	<h3><dt>Sunlight</dt></h3> &nbsp;
+		<dd> PASSIVE: Damaging spells afflict enemies with Sunlight for 3.5 seconds. When allied Champions deal damage to those targets, they consume the Sunlight to deal additional magic damage.</dd>&nbsp;
+	<h3><dt>Shield of Daybreak</dt></h3> &nbsp;
+		<dd> ACTIVE: Leona uses her shield to perform her next basic attack, dealing bonus magic damage and stunning the target for 1 second.</dd>&nbsp;
+	<h3><dt>Eclipse</dt></h3> &nbsp;
+		<dd> ACTIVE: Leona raises her shield to gain Armor and Magic Resist. When the duration first ends, if there are nearby enemies, she will deal magic damage to them and prolong the duration of the effect.</dd>&nbsp;
+	<h3><dt>Zenith Blade</dt></h3> &nbsp;
+		<dd> ACTIVE: Leona projects a solar image of her sword, dealing magic damage to all enemies in a line. When the image fades, the last enemy champion struck will be briefly immobilized and Leona will dash to them.</dd>&nbsp;
+	<h3><dt>Solar Flare</dt></h3> &nbsp;
+		<dd> ACTIVE: Leona calls down a beam of solar energy, dealing damage to enemies in an area. Enemies in the center of the area are stunned, while enemies on the outside are slowed. Afterward, Leona's sword is charged with the power of the sun and deals bonus magic damage for a few attacks.</dd>&nbsp;
+	
+</dl>
+</p>
+<script>
+function changevid(buttonlink) { 
+    document.getElementById('change').src = buttonlink;
+}
+</script>
+<hr>
+<footer>Copyright &copy; 2016 Riot Games</footer>
+</main>
+</body>
+</html>

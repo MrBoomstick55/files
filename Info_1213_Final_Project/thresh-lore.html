@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blitzcrank</title>
+<meta charset="utf-8">
+<style>
+body {
+	background-image: url("Summoners-Rift.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav { float: left;
+	  width: 90px;
+	  margin: 15px; }
+nav ul { list-style-type: none;
+		 margin-left: 0;
+		 padding: 5px;
+		 padding-bottom: 10px; }
+nav a { text-decoration: none;
+		padding: 20px;
+		font-weight: bold;
+		display: block;
+		text-align: center; }
+.button { border-radius: 60px;
+		  padding: 15px;
+		  background-color: #F7DEE1; }
+nav ul, li { padding: 20px 3px 40px 3px }
+h1, h2, p { color: #ffffff;
+		 opacity: 0.8;'
+		 margin-left: 100px; }
+main { margin-left: 80px; }  
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+<nav>
+<ul>
+<li><a class="button" href="frontpage.html">Home</a></li> &nbsp;
+<li><a class="button" href="thresh-lore.html">Lore</a></li> &nbsp;
+<li><a class="button" href="thresh-abilities.html">Abilities</a></li> 
+</nav>
+
+<body background="Summoners-Rift.jpg">
+<main>
+<center><img src="LoL-logo.png" align="middle"></center>
+
+<center><h1>Thresh</h1></center>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="TImage/Thresh_Original.jpg" style="width:100%">
+    <div class="text">Thresh Classic</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="TImage/Thresh_Deep.jpg" style="width:100%">
+    <div class="text">Deep Terror Thresh</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="TImage/Thresh_Champ.jpg" style="width:100%">
+    <div class="text"Championship Thresh</div>
+  </div>
+  
+   <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="TImage/Thresh_Moon.jpg" style="width:100%">
+    <div class="text">Blood Moon Thresh</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="TImage/Thresh_SSW.jpg" style="width:100%">
+    <div class="text">SSW Thresh</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="TImage/Thresh_Star.jpg" style="width:100%">
+    <div class="text">Dark Star Thresh</div>
+  </div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span>  
+  <span class="dot" onclick="currentSlide(6)"></span> 
+</div>
+
+<h2>Lore</h2>
+<p>
+
+Sadistic and cunning, Thresh is a restless spirit who prides himself on tormenting mortals and 
+breaking them with slow, excruciating inventiveness. His victims suffer far beyond the point of 
+death, for Thresh wreaks agony upon their souls, imprisoning them in his lantern to torture for all 
+eternity. <br> <br>
+
+In an age history has all but forgotten, 
+the man who would later be known as Thresh was once a member of an order devoted to gathering and 
+protecting knowledge. The masters of this order tasked him with guarding a hidden underground vault 
+filled with dangerous and corrupted magical artifacts. Thresh was incredibly strong-willed and 
+methodical, which made him well-suited to such work. <br><br>
+
+The vault Thresh guarded was buried deep beneath the citadel at the center of an island chain and 
+protected by runic sigils, arcane locks and potent wards. Spending such time in the presence of dark 
+spells began to affect Thresh as the magic sought out his innate malice. For years the relics preyed 
+on his insecurities, taunting him with his deepest fears and feeding his bitterness. <br><br>
+
+Thresh’s spite surfaced through wanton acts of cruelty, as his talent for exploiting vulnerability 
+bloomed. He slowly tore pages out of a living book, binding it back together when it was all but spent. 
+He scratched the glass of a mirror bound with the memory of an ancient mage until it was opaque, 
+trapping the man in darkness, only to polish it anew and repeat. Just as a secret wants to be told, 
+a spell wants nothing more than to be cast, and Thresh denied this each day. He would start to recite 
+an incantation, then let the words trickle off his tongue, halting just before the last syllable. <br><br>
+
+He became exquisitely skilled at covering all evidence of his cruelty, such that no one in the order 
+suspected he was anything other than a disciplined guard. The vault had grown so vast that no one knew 
+its contents as completely as Thresh, and the lesser artifacts faded from the order’s memory, as did 
+Thresh himself. <br><br>
+
+He resented that he had to hide his meticulous work. Everything under his watch was evil, 
+or corrupted in some way - why shouldn’t he be free to do as he would? <br><br>
+
+The vault held many peculiar magical artifacts but no people, until one day when a chained man was 
+dragged into the sunken catacombs. He was a warlock who had infused his body with raw sorcery, which 
+gave him the power to regenerate his flesh, no matter how grievous the wound. <br><br>
+
+Thresh was delighted at his new ward - a being who could feel the full range of human suffering, 
+but would not perish, a plaything he could torment for years to come. He started methodically 
+separating the warlock’s skin from his flesh with a hook, and used his chains to lash and tear the 
+open wound until it healed. He took to wearing the chains as he patrolled the vault, reveling in the 
+warlock’s fear at the long, dragging sound of his approach. <br><br>
+
+With ample charges to torment in the vault, Thresh became even more distanced from the order above. 
+He began to take his meals in his underground chamber lit by a single lantern, rarely emerging from 
+the catacombs. His skin developed a pallid complexion from lack of sunlight, and his face became gaunt 
+and hollow. Members of the order avoided him, and when a series of mysterious disappearances plagued 
+the order, none thought to investigate Thresh’s lair. <br><br>
+
+When the disaster known as the Ruination struck, magical shockwaves claimed the lives of 
+all who lived on the isles and transformed them into a state of undeath. While others screamed in 
+anguish, Thresh reveled in the ruin. He rose from this cataclysm as a spectral abomination, but 
+unlike many who have passed into the shadow world, Thresh did not lose his identity. Rather, his 
+penchant for cruel torture and ability to discern weakness was only heightened. <br><br>
+
+He relished the chance to continue his cruelty without fear of reprisal, 
+unfettered by the limits of mortality. As a wraith, Thresh could torment the living 
+and the dead endlessly, delighting in their despair before claiming their soul for an 
+eternity of suffering. <br><br>
+
+Thresh now seeks only particular victims: the most clever and resilient, and those with a strong will. 
+His greatest joy comes from tormenting his victims until they lose any last glimmer of hope, 
+before facing the inevitable hook of his chains. <br><br>
+
+</p>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+	
+</script>
+</main>
+</body>
+</html>

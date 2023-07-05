@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blitzcrank</title>
+<meta charset="utf-8">
+<style>
+body {
+	background-image: url("Summoners-Rift.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav { float: left;
+	  width: 90px;
+	  margin: 15px; }
+nav ul { list-style-type: none;
+		 margin-left: 0;
+		 padding: 5px;
+		 padding-bottom: 10px; }
+nav a { text-decoration: none;
+		padding: 20px;
+		font-weight: bold;
+		display: block;
+		text-align: center; }
+.button { border-radius: 60px;
+		  padding: 15px;
+		  background-color: #F7DEE1; }
+nav ul, li { padding: 20px 3px 40px 3px }
+h1, h2, p { color: #ffffff;
+		 opacity: 0.8;'
+		 margin-left: 100px; }
+main { margin-left: 80px; }  
+.center { margin: 0 auto; width: 400px; }
+dt, dd, dl { color: #ffffff;
+			 opacity: 1; }
+h1, h2 { text-align: center; }
+dd, dt { margin-left: 200px;
+	     margin-right: 200px; 
+		 width: 50%; }
+
+
+</style>
+<nav>
+<ul>
+<li><a class="button" href="frontpage.html">Home</a></li> &nbsp;
+<li><a class="button" href="thresh-lore.html">Lore</a></li> &nbsp;
+<li><a class="button" href="thresh-abilities.html">Abilities</a></li> 
+</nav>
+
+<body>
+
+<center><img src="LoL-logo.png" align="middle"></center>
+<center><h1>Thresh</h1></center>
+
+<main>
+
+<div style="width:800px; margin: 0 auto;"><video controls id="change">
+  <source src="https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0412_01.mp4" type="video/mp4" ></source>
+</video></div>
+
+<div style="width:400px; margin: 0 auto;">
+<input type="image" src="TImage/Thresh-Passive.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0412_01.mp4')"></image> &nbsp;
+<input type="image" src="TImage/Thresh-Ability1.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0412_02.mp4')"></image> &nbsp;
+<input type="image" src="TImage/Thresh-Ability2.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0412_03.mp4')"></image> &nbsp;
+<input type="image" src="TImage/Thresh-Ability3.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0412_04.mp4')"></image> &nbsp;
+<input type="image" src="TImage/Thresh-Ult.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0412_05.mp4')"></image> &nbsp;
+</div>
+
+<h2>Abilities</h2>
+<p>
+<dl>
+
+	<h3><dt>Damnation</dt></h3> &nbsp;
+		<dd>  PASSIVE: Thresh can harvest the souls of enemies that die near him, permanently granting him Armor and Ability Power.</dd>&nbsp;
+	<h3><dt>Death Sentence</dt></h3> &nbsp;
+		<dd> ACTIVE: Thresh binds an enemy in chains and pulls them toward him. Activating this ability a second time pulls Thresh to the enemy.</dd>&nbsp;
+	<h3><dt>Dark Passage</dt></h3> &nbsp;
+		<dd> ACTIVE: Thresh throws out a lantern that shields nearby allied Champions from damage. Allies can click the lantern to dash to Thresh.</dd>&nbsp;
+	<h3><dt>Flay</dt></h3> &nbsp;
+		<dd> PASSIVE: Thresh's attacks wind up, dealing more damage the longer he waits between attacks.</dd>
+		<dd> ACTIVE: When activated, Thresh sweeps his chain, knocking all enemies hit in the direction of the blow.</dd>&nbsp;
+	<h3><dt>The Box</dt></h3> &nbsp;
+		<dd> PASSIVE: A prison of walls that slow and deal damage if broken.</dd>&nbsp;
+	
+</dl>
+</p>
+<script>
+function changevid(buttonlink) { 
+    document.getElementById('change').src = buttonlink;
+}
+</script>
+<hr>
+<footer>Copyright &copy; 2016 Riot Games</footer>
+</main>
+</body>
+</html>

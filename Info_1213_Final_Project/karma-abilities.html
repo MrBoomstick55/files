@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Karma - Abilities</title>
+<meta charset="utf-8">
+<style>
+body {
+	background-image: url("Summoners-Rift.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav { float: left;
+	  width: 90px;
+	  margin: 15px; }
+nav ul { list-style-type: none;
+		 margin-left: 0;
+		 padding: 5px;
+		 padding-bottom: 10px; }
+nav a { text-decoration: none;
+		padding: 20px;
+		font-weight: bold;
+		display: block;
+		text-align: center; }
+.button { border-radius: 60px;
+		  padding: 15px;
+		  background-color: #F7DEE1; }
+nav ul, li { padding: 20px 3px 40px 3px }
+h1, h2, p { color: #ffffff;
+		 opacity: 0.8;'
+		 margin-left: 100px; }
+main { margin-left: 80px; }  
+.center { margin: 0 auto; width: 400px; }
+dt, dd, dl { color: #ffffff;
+			 opacity: 1; }
+h1, h2 { text-align: center; }
+dd, dt { margin-left: 200px;
+	     margin-right: 200px; 
+		 width: 50%; }
+
+</style>
+<nav>
+<ul>
+	<li><a class="button" href="frontpage.html">Home</a></li> &nbsp;
+	<li><a class="button" href="karma-lore.html">Lore</a></li> &nbsp;
+	<li><a class="button" href="karma-abilities.html">Abilities</a></li> 
+</nav>
+
+<body>
+
+<center><img src="LoL-logo.png" align="middle"></center>
+<center><h1>Karma</h1></center>
+
+<main>
+
+<div style="width:800px; margin: 0 auto;"><video controls id="change">
+  <source src="https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0043_01.mp4" type="video/mp4" ></source>
+</video></div>
+
+
+<div style="width:400px; margin: 0 auto;">
+<input type="image" src="KImage/Karma-Passive.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0043_01.mp4')"></image> &nbsp;
+<input type="image" src="KImage/Karma-Ability1.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0043_02.mp4')"></image> &nbsp;
+<input type="image" src="KImage/Karma-Ability2.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0043_03.mp4')"></image> &nbsp;
+<input type="image" src="KImage/Karma-Ability3.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0043_04.mp4')"></image> &nbsp;
+<input type="image" src="KImage/Karma-Ult.png" width="41px" height="41px" onClick="changevid('https://lolstatic-a.akamaihd.net/champion-abilities/videos/mp4/0043_05.mp4')"></image> &nbsp;
+</div>
+
+<h2>Abilities</h2>
+<p>
+<dl>
+	<h3><dt>Gathering Fire</dt></h3> &nbsp;
+		<dd> PASSIVE: Karma will reduces Mantra's cooldown each time Karma damages an enemy champion with one of her abilities.</dd> &nbsp;
+	<h3><dt>Inner Flame</dt></h3> &nbsp;
+		<dd> ACTIVE: Karma sends forth a ball of spirit energy that explodes and deals damage upon hitting an enemy unit.</dd> &nbsp;
+	<h3><dt>Focused Resolve</dt></h3> &nbsp;
+		<dd> ACTIVE: Karma creates a tether between herself and a targeted enemy, dealing damage over time and revealing them. If the tether is not broken, the enemy will be rooted.</dd>&nbsp;
+	<h3><dt>Inspire</dt></h3> &nbsp;
+		<dd> ACTIVE:Karma summons a protective shield that absorbs incoming damage and increases the Movement Speed of the protected ally.</dd>&nbsp;
+	<h3><dt>Mantra</dt></h3> &nbsp;
+		<dd> ACTIVE:Karma empowers her next ability to do an additional effect. Mantra is available at level 1 and does not require a skill point.</dd>&nbsp;
+</dl>
+</p>
+<script>
+function changevid(buttonlink) { 
+    document.getElementById('change').src = buttonlink;
+}
+</script>
+<hr>
+<footer><small>Copyright &copy; 2016 Riot Games</small></footer>
+</main>
+</body>
+</html>
